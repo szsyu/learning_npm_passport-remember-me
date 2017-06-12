@@ -1,0 +1,40 @@
+{
+  "name": "learning_npm_passport-remember-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serge-nikitin/learning_npm_passport-remember-me.git"
+  },
+  "keywords": [],
+  "author": "Serge Nikitin <mail@sergenikitin.com> (http://letsdiscuss.tech/serge-nikitin)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/serge-nikitin/learning_npm_passport-remember-me/issues"
+  },
+  "homepage": "https://github.com/serge-nikitin/learning_npm_passport-remember-me#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongoose": "^4.10.5",
+    "morgan": "^1.8.2",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-remember-me": "0.0.1",
+    "pug": "^2.0.0-rc.2",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-import": "^2.3.0",
+    "nodemon": "^1.11.0"
+  }
+}

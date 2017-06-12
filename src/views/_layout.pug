@@ -1,0 +1,19 @@
+html
+  head
+    title playground-103
+
+  body
+    h1 playground-103 / passport-remember-me
+    ul
+      if currentUser
+        li: a(href='/profile') profile
+        li: a(href='/auth/logout') logout
+      else
+        li: a(href='/login') login
+        li: a(href='/signup') signup
+
+    hr
+    block content
+
+    footer
+      hr

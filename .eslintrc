@@ -1,0 +1,30 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "plugins": [
+    "import"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": 0,
+    "prefer-template": "error",
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "import/no-unresolved": [
+      2,
+      {
+        "commonjs": true
+      }
+    ]
+  }
+}
